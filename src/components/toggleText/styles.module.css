@@ -1,0 +1,33 @@
+.mainContainer {
+  margin: 0 auto;
+  background-color: rgb(255, 229, 127);
+  padding: 20px;
+  width: 40vw;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputBtnContainer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputBtnContainer input {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.inputBtnContainer button {
+  padding: 10px;
+  background-color: yellowgreen;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
